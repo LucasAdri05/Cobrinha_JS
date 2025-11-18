@@ -11,7 +11,7 @@ const refs = {
     historico: document.getElementById("listaHistorico")
 };
 
-const tamanhoGrade = 18;
+const tamanhoGrade = 20;
 const tamanhoCelula = tela.width / tamanhoGrade;
 const tiposDeAlimento = [
     { cor: "#ef4444", pontos: 10 },
@@ -237,4 +237,5 @@ function limparHistorico() {
 
 iniciarJogo();
 desenharTela();
+
 atualizarHistorico();
